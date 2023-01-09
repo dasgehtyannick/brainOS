@@ -79,10 +79,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Als kleiner Bub mit 14 Jahren hat mir mein Kumpel YouTube gezeigt und
-          in dem Atemzug auch die Welt der Let's Plays. Natürlich war ich von
+          in dem Atemzug auch die Welt der Lets Plays. Natürlich war ich von
           Sekunde 1 in den Bann gezogen, weil viel Quatsch erzählen und Spiele
           spielen kann ich auch - dachte ich. Nun sind 13 Jahre später und ich
-          mach den ganzen Kram immer noch und hab' mehr Spaß denn je! :^)
+          mach den ganzen Kram immer noch und hab mehr Spaß denn je! :^)
           
           Mittlerweile hat mein YouTube-Kanal {' '}
           <NextLink href="https://www.youtube.com/littleconfusedbrain" passHref>
@@ -96,7 +96,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="https://lcbrain.de/projects" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Alle meine Let's Plays in der Übersicht
+              Alle meine Lets Plays in der Übersicht
             </Button>
           </NextLink>
         </Box>
@@ -125,7 +125,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoYoutube />}
               >
-                @LittleConfusedBrain (Let's Plays)
+                @LittleConfusedBrain (Lets Plays)
               </Button>
             </Link>
           </ListItem>

@@ -22,7 +22,7 @@ const Work = () => (
       </P>
       <P>
       <br/>Ich war ein Backer auf Kickstarter nachdem ich die Demo gespielt hatte. Also quasi Supporter erster Stunde.
-      Das Spiel überzeugt auf so vielen Ebenen und als Point 'n Click Spieler fühlt man sich direkt Zuhause. Die Charaktere und Geschichte ist mit so viel Liebe und Witz geschrieben, dass ich mich über jeden Satz freue, den ich höre. Die wundervolle Synchronisation kommt nämlich auch noch oben drauf!
+      Das Spiel überzeugt auf so vielen Ebenen und als Point-&-Click Spieler fühlt man sich direkt Zuhause. Die Charaktere und Geschichte ist mit so viel Liebe und Witz geschrieben, dass ich mich über jeden Satz freue, den ich höre. Die wundervolle Synchronisation kommt nämlich auch noch oben drauf!
       <br/><br/>
       Alles in allem bin ich unfassbar glücklich über das Spiel und habe bisher enorm viel Spaß. Ich würde es wirklich JEDEM empfehlen. 🎉
       </P>
