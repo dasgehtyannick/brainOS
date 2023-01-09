@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
+import Image from 'next/image'
+import brainLogo from '../public/images/brain.png'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -26,14 +27,19 @@ const Logo = () => {
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-          <FootprintIcon />
+          <Image
+            src={brainLogo}
+            alt="brain logo"
+            width="30px"
+            height="30px"
+            />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+            Brain
           </Text>
         </LogoBox>
       </a>

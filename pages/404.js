@@ -11,12 +11,12 @@ import {
 const NotFound = () => {
   return (
     <Container>
-      <Heading as="h1">Not found</Heading>
-      <Text>The page you&apos;re looking for was not found.</Text>
+      <Heading as="h1">Hier ist nix.</Heading>
+      <Text>Das hat ja mal nicht geklappt, wa?</Text>
       <Divider my={6} />
       <Box my={6} align="center">
         <NextLink href="/" passHref>
-          <Button colorScheme="teal">Return to home</Button>
+          <Button colorScheme="teal">Zurück zum Start</Button>
         </NextLink>
       </Box>
     </Container>
