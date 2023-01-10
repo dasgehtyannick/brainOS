@@ -29,7 +29,7 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Brain" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.lcbrain.de/card.png" />
-        <title>Brain 🧠</title>
+        <title>Brain</title>
       </Head>
 
       <NavBar path={router.asPath} />
