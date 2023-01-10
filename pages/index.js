@@ -162,7 +162,7 @@ const Home = () => (
             Mein YouTube-Kanal (&gt;45k subs)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
+            href="https://www.youtube.com/@LittleConfusedStreams"
             title="VOD Kanal"
             thumbnail={thumbInkdrop}
           >
