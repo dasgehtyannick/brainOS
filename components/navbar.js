@@ -15,6 +15,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
+import { IoLogoDiscord, IoHeadset, IoShirt, IoLogoTwitter, IoLogoTwitch } from 'react-icons/io5'
 import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
@@ -72,6 +73,21 @@ const Navbar = props => {
         >
           <LinkItem href="/works" path={path}>
             Brabbeleien
+          </LinkItem>
+          <LinkItem href="https://discord.gg/lcbrain">
+          <IoLogoDiscord />  Discord
+          </LinkItem>
+          <LinkItem href="https://www.getshirts.de/index.php?page=shop&id=littleconfusedbrain">
+          <IoShirt />  Merch
+          </LinkItem>
+          <LinkItem href="https://www.twitch.tv/brain">
+          <IoLogoTwitch /> LIVE
+          </LinkItem>
+          <LinkItem href="https://open.spotify.com/show/4e2YJewYR817wrru0i3qVU?si=aa465936f24048e0">
+          <IoHeadset />  Podcast
+          </LinkItem>
+          <LinkItem href="https://www.twitter.com/lcbrain">
+          <IoLogoTwitter />  Twitter
           </LinkItem>
         </Stack>
 
